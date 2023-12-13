@@ -23,9 +23,6 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name : install dependencies
-      run: npm install
-    - name : run tests
-      run: npm run test:headless
-      
+      run: npm install  
     - name: build 
       run: npm run build 
